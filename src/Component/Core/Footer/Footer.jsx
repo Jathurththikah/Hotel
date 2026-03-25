@@ -1,5 +1,8 @@
-import { FacebookOutlined, InstagramOutlined, LinkedinOutlined, TikTokOutlined } from '@ant-design/icons'
-import React from 'react'
+import { FacebookOutlined, InstagramOutlined, LinkedinOutlined, TikTokOutlined } from "@ant-design/icons"
+
+// import { FacebookOutlined } from "@ant-design/icons"
+
+ 
 
 const Footer = () => {
   return (
@@ -15,7 +18,7 @@ const Footer = () => {
         Your satisfaction is our priority.
         
       </p>
-      <span className='text-white text-2xl'> <a href="https://www.facebook.com/"> <FacebookOutlined /> </a> <a href="https://www.instagram.com/"> <InstagramOutlined /> </a> <a href="www.tiktok.com"><TikTokOutlined /></a> <a href="https://lk.linkedin.com"><LinkedinOutlined /> </a> </span>
+      <span className='text-white text-2xl'> <a href="https://www.facebook.com/"> <FacebookOutlined /> </a> <a href="https://www.instagram.com/"> <InstagramOutlined /> </a> <a href="www.tiktok.com"><TikTokOutlined/></a> <a href="https://lk.linkedin.com"><LinkedinOutlined /> </a> </span>
     </div>
 
     
