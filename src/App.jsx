@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './App.css'
 import Navbar from './Component/Core/Navbar/Navbar'
 import Home from './Component/Core/Home/Home'
 import About from './Component/Core/About/About'
@@ -10,21 +9,20 @@ import Rooms from './Component/Rooms/Rooms'
 import Details from './Component/Details/Details'
 import Roombooking from './Component/Roombooking/Roombooking'
 
-function App() {
+const App = () => {
   const [count, setCount] = useState(0)
 
   return (
     <>
-       <Navbar/>
-       <Home/>
-       <About/>
-       <Contact/>
-       <Footer/>
-      
-    <Booking />
-    <Rooms />
-    <Details />
-    <Roombooking />
+      <Navbar />
+      <Home />
+      <About />
+      <Contact />
+      <Footer />
+      <Booking />
+      <Rooms />
+      <Details />
+      <Roombooking />
 
     </>
   )
