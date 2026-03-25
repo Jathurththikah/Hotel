@@ -8,6 +8,11 @@ import Booking from './Component/Booking/Booking'
 import Rooms from './Component/Rooms/Rooms'
 import Details from './Component/Details/Details'
 import Roombooking from './Component/Roombooking/Roombooking'
+import './App.css'
+import Gallery from './Component/Info/Gallery/Gallery'
+import Faq from './Component/Info/Faq/Faq'
+import Review from './Component/Info/Review/Review'
+// import Gallerygrid from './Component/Gallery/Gallerygrid'
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -24,6 +29,9 @@ const App = () => {
       <Details />
       <Roombooking />
 
+      <Faq />
+      <Gallery />
+      <Review />
     </>
   )
 }
