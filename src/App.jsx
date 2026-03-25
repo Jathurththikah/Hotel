@@ -7,6 +7,7 @@ import Contact from './Component/Core/Contact/Contact'
 import Footer from './Component/Core/Footer/Footer'
 
 
+ 
 function App() {
   const [count, setCount] = useState(0)
 
@@ -17,6 +18,7 @@ function App() {
        <About/>
        <Contact/>
        <Footer/>
+      
     </>
   )
 }
