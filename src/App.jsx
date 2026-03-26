@@ -12,7 +12,7 @@ import './App.css'
 import Gallery from './Component/Info/Gallery/Gallery'
 import Faq from './Component/Info/Faq/Faq'
 import Review from './Component/Info/Review/Review'
-// import Gallerygrid from './Component/Gallery/Gallerygrid'
+
 
 const App = () => {
   const [count, setCount] = useState(0)
