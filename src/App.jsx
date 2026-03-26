@@ -12,6 +12,9 @@ import './App.css'
 import Gallery from './Component/Info/Gallery/Gallery'
 import Faq from './Component/Info/Faq/Faq'
 import Review from './Component/Info/Review/Review'
+import ServicesGrid from "./Component/Services/ServicesGrid"
+import ServicesGrid from "./Component/Services/ServicesGrid"
+
 
 
 const App = () => {
@@ -32,7 +35,8 @@ const App = () => {
       <Faq />
       <Gallery />
       <Review />
-    </>
+       <ServicesGrid/>
+</>
   )
 }
 
