@@ -17,8 +17,7 @@ import ServicesGrid from "./Component/Services/ServicesGrid"
 
 
 const App = () => {
-  const [count, setCount] = useState(0)
-
+   
   return (
     <>
       <Navbar />
